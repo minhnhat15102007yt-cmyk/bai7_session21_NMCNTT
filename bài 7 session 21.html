@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bài 7 session 21</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h3 id="phần-1-phân-tích-sai-lầm-tìm-kiếm">PHẦN 1: PHÂN TÍCH SAI LẦM TÌM KIẾM</h3>
+<ol>
+<li><strong>Query 1 là “Bad Query” vì:</strong><br>
+-   <strong>Dài dòng, mang tính văn nói:</strong> Chứa nhiều từ thừa (<code>thầyơi</code>,  <code>giúp em</code>,  <code>bị lỗi</code>), làm nhiễu thuật toán tìm kiếm.<br>
+-   <strong>Thiếu từ khóa kỹ thuật:</strong> Không có mã lỗi nguyên văn (<code>Access is denied</code>), giao thức (<code>OCPP</code>) hay HĐH (<code>Windows 11</code>), khiến Google chỉ trả về bài viết blog, tâm sự rác.<br>
+2.  <strong>Hiểm họa an toàn thông tin (Query 3):</strong>
+<ul>
+<li><strong>Nhiễm mã độc:</strong> Tải file crack/tool sửa lỗi không rõ nguồn gốc dễ dính Trojan, Ransomware.
+<ul>
+<li><strong>Rủi ro hệ thống:</strong> Máy trạm Kiosk bị chiếm quyền điều khiển, làm rò rỉ dữ liệu hoặc đe dọa toàn bộ mạng lưới trạm sạc VoltCharge.</li>
+</ul>
+<h3 id="phần-2-chuẩn-hóa-cú-pháp-tìm-kiếm">PHẦN 2: CHUẨN HÓA CÚ PHÁP TÌM KIẾM</h3>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="bóc-tách-thông-báo-lỗi">3. Bóc tách thông báo lỗi</h4>
+<p>Thành phần cốt lõi<br>
+Nội dung trích xuất chuẩn<br>
+Mục đích lọc tìm kiếm<br>
+<strong>1. Tên phần mềm &amp; Môi trường</strong><br>
+<code>Windows 11</code> <code>VoltCharge Controller</code><br>
+Khoanh vùng đúng phiên bản hệ điều hành<br>
+<strong>2. Mã lỗi nguyên văn</strong><br>
+<code>"Access is denied"</code><br>
+Ép khớp chính xác thông báo lỗi hệ thống<br>
+<strong>3. Thao tác / Giao thức</strong><br>
+<code>bind OCPP port</code><br>
+Xác định đúng tác vụ lắng nghe cổng giao thức</p>
+<h4 id="cú-pháp-tìm-kiếm-chuẩn-kỹ-sư">4. 03 Cú pháp tìm kiếm chuẩn kỹ sư</h4>
+<ul>
+<li><strong>Cú pháp 1 (Microsoft Community - Windows 11, loại bỏ Win 7/8):</strong><code>site:answers.microsoft.com "Windows 11" "Access is denied" "bind" port -win7 -win8</code>
+<ul>
+<li><strong>Cú pháp 2 (Trang chủ Open Charge Alliance):</strong><code>site:openchargealliance.org "Failed to bind" "OCPP" "Access is denied"</code></li>
+<li><strong>Cú pháp 3 (Stack Overflow - Sạch quảng cáo, crack):</strong><code>site:stackoverflow.com "Failed to bind" "OCPP" "Access is denied" -crack -software</code></li>
+</ul>
+</li>
+</ul>
+</div>
+</body>
+
+</html>
